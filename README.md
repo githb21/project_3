@@ -1,16 +1,12 @@
 ![Crypto Sneaks Logo](images/CryptoSneaks.gif)
 
-![Crypto Sneaks Logo](images/CryptoSneaks.gif)
-
-CRYPTOSNEAKS
-
 ## Summary
 
 This application is a decentralized collectible sneaker auction market built on Ethereum
 
 ## Demo App
 
-Click [here](frontend/index.html) to launch the dapp
+Click [here](https://githb21.github.io/auction_dapp) to launch the dapp
 
 
 ## Table of Contents
@@ -18,8 +14,6 @@ Click [here](frontend/index.html) to launch the dapp
 * [Summary](#summary)
 * [Market Analysis and Modeling](#market-analysis-and-modeling) 
 * [Development Platforms](#development-platforms)
-* [Blockchain Technology](#blockchain-technology) 
-* [Smart Contracts](#smart_contracts) 
 * [Digital Tokens - Non-Fungible Tokens(NFT)](#digital-tokens-non-fungible-tokens(NFT)) 
 * [Initial Coin Offering (ICO)](#initial-coin-offering-(ICO)) 
 * [Demo](#demo)
