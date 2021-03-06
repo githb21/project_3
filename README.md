@@ -13,7 +13,7 @@ Click [here](https://githb21.github.io/auction_dapp) to launch the dapp
 
 * [About](#About)
 * [Initial Coin Offering (ICO)](#initial-coin-offering-(ICO)) 
-* [Auction](#auction)) 
+* [Auction](#auction) 
 * [Market Analysis and Modeling](#market-analysis-and-modeling) 
 * [Development Platforms](#development-platforms)
 * [Collaborators](#collaborators)
@@ -117,18 +117,6 @@ Accuracy: 97.14%
 ![python](images/python.jpeg)
 ![remix](images/remix.png)
 ![solity](images/solidity.png)
-
----
-## Blockchain Technology
-## Smart Contracts
-
----
-## Digital Tokens - Non-Fungible Tokens (NFT)
-
----
-## Initial Coin Offering (ICO)
-
----
 
 ---
 ## Collaborators
