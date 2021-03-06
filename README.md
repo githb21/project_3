@@ -27,7 +27,7 @@ CryptoSneaks is a decentralized auction platform for collectible sneakers, which
 In order to fund the development of CryptoSneaks, an Initial Coin Offering was created. We have also used Machine Learning to analyze the sneaker resale markets data which provides valuable market intel for investors of collectible markets.
 
 ---
-## Initial Coin Offering (ICO)
+## Initial Coin Offering
 
 ### Deplopy the crowdsale
 ![deployICO](screen_shot/deployICO.gif)
