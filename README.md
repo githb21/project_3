@@ -12,10 +12,10 @@ Click [here](https://githb21.github.io/auction_dapp) to launch the dapp
 ## Table of Contents
 
 * [About](#About)
+* [Initial Coin Offering (ICO)](#initial-coin-offering-(ICO)) 
+* [Auction](#auction)) 
 * [Market Analysis and Modeling](#market-analysis-and-modeling) 
 * [Development Platforms](#development-platforms)
-* [Digital Tokens - Non-Fungible Tokens(NFT)](#digital-tokens-non-fungible-tokens(NFT)) 
-* [Initial Coin Offering (ICO)](#initial-coin-offering-(ICO)) 
 * [Collaborators](#collaborators)
 * [Resources](#resources)
 
@@ -27,7 +27,7 @@ CryptoSneaks is a decentralized auction platform for collectible sneakers, which
 In order to fund the development of CryptoSneaks, an Initial Coin Offering was created. We have also used Machine Learning to analyze the sneaker resale markets data which provides valuable market intel for investors of collectible markets.
 
 ---
-## ICO
+## Initial Coin Offering (ICO)
 
 ### Deplopy the crowdsale
 ![deployICO](screen_shot/deployICO.gif)
@@ -42,16 +42,26 @@ You can view the AUC token on Ropsten testnet Etherscan by inputting the token_a
 
 ![etherscan_AUC](screen_shot/etherscan_AUC.JPG)
 
-In order to fund the development of CryptoSneaks, an Initial Coin Offering was created.
+---
+## Auction
 
+### Register the sneaker (only admin - contract deployer has the rights)
+![register](screen_shot/register.gif)
 
+Registered shoes metadata can be found on [Pinata](https://pinata.cloud/)
+![pinata](screen_shot/pinata.JPG)
 
+### Bid
+![bid](screen_shot/bid.gif)
 
+### End auction (only admin - contract deployer has the rights)
+![endAuction](screen_shot/endAuction.gif)
 
+You can view all the transaction detals on Ropsten testnet Etherscan by inputting the contract address
 
+![etherscan_KICK](screen_shot/etherscan_KICK.JPG)
 
-
-
+---
 ## Market Analysis and Modeling
 Using the dataset provide by StockX we evaluated the different aspects of the sneakers resale market and develop a regression model to predict resale price identify the most relevant features of the sneakers market. 
 
@@ -120,8 +130,6 @@ Accuracy: 97.14%
 
 ---
 
-
-
 ---
 ## Collaborators
 - Sylvia Li
@@ -132,7 +140,6 @@ Accuracy: 97.14%
 ## Resources
 - [Random Forest Regression](MarketAnalysis/notebooks/Random_Forest_Regression.ipynb)
 - [Sneakers Analysis](MarketAnalysis/notebooks/Sneakers_Data_Analysis.ipynb)
-- [Auction Smart Contract]()
-- [ICO Smart Contract]()
+- [ICO Crowdsale Smart Contract](ICO/AuctionCoinCrowdSale.sol)
+- [Auction Smart Contract](auction/KickMarket.sol)
 - [StockX Data Contest](https://stockx.com/news/the-2019-data-contest/)
-
