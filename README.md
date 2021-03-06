@@ -1,40 +1,52 @@
 ![Crypto Sneaks Logo](images/CryptoSneaks.gif)
 
-## Summary
+## DApp Summary
 
-This application is a decentralized collectible sneaker auction market built on Ethereum
+This application is a decentralized collectible sneaker auction platform built on Ethereum
 
 ## Demo App
 
 Click [here](https://githb21.github.io/auction_dapp) to launch the dapp
 
-
+---
 ## Table of Contents
 
-* [Summary](#summary)
+* [About](#About)
 * [Market Analysis and Modeling](#market-analysis-and-modeling) 
 * [Development Platforms](#development-platforms)
 * [Digital Tokens - Non-Fungible Tokens(NFT)](#digital-tokens-non-fungible-tokens(NFT)) 
 * [Initial Coin Offering (ICO)](#initial-coin-offering-(ICO)) 
-* [Demo](#demo)
 * [Collaborators](#collaborators)
 * [Resources](#resources)
 
-
-
 ---
 ## Summary
-CryptoSneaks is a decentralized 
+
+CryptoSneaks is a decentralized auction platform for caollectible sneakers, which enables a transparent, real-time bidding process for buyers who are interested in collectible sneakers. CryptoSneaks will be able to register new sneakers with their account, minting and creating a new auction for the sneaker. When the endAuction function is called, the auction will complete and the token will be transferred to the highest bidder Each collectible sneaker will be a unique ERC721 token, with its own metadata including the name, size and image URL, to be registered on the [Pinata](https://pinata.cloud/) - a decentralized InterPlanetary File System.
+
+In order to fund the development of CryptoSneaks, an Initial Coin Offering was created. We have also used Machine Learning to analyze the sneaker resale markets data which provides valuable market intel for investors of collectible markets.
 
 ---
-
-## Demo 
-
-![Auction_DApp_Demo]https://githb21.github.io/auction_dapp
-
-
 ## ICO
+
+### Deplopy the crowdsale
+![deployICO](screen_shot/deployICO.gif)
+
+### Purchase AUC token
+![buyAUC](screen_shot/buyAUC.gif)
+
+### Finalize sale
+![finalizeSale](screen_shot/finalizeSale.gif)
+
+You can the AUC token on Ropsten testnet Etherscan by inputting the token_address
+
+![etherscan_AUC](screen_shot/etherscan_AUC.jpg)
+
 In order to fund the development of CryptoSneaks, an Initial Coin Offering was created.
+
+
+
+
 
 
 
@@ -112,14 +124,15 @@ Accuracy: 97.14%
 
 ---
 ## Collaborators
-- Emmanuel Lopez els2310@gmail.com 
-- Etienne Alcaraz etiennegalcaraz@gmail.com
-- Jerry Hsieh cthsieh@ucdavis.edu
-- Sylvia 
+- Sylvia Li
+- Emmanuel Lopez 
+- Etienne Alcaraz
 
 ---
 ## Resources
 - [Random Forest Regression](MarketAnalysis/notebooks/Random_Forest_Regression.ipynb)
 - [Sneakers Analysis](MarketAnalysis/notebooks/Sneakers_Data_Analysis.ipynb)
+- [Auction Smart Contract]()
+- [ICO Smart Contract]()
 - [StockX Data Contest](https://stockx.com/news/the-2019-data-contest/)
 
