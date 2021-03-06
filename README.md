@@ -12,7 +12,7 @@ Click [here](https://githb21.github.io/auction_dapp) to launch the dapp
 ## Table of Contents
 
 * [About](#About)
-* [Initial Coin Offering](#initial-coin-offering)) 
+* [Initial Coin Offering](#initial-coin-offering) 
 * [Auction](#auction) 
 * [Market Analysis and Modeling](#market-analysis-and-modeling) 
 * [Development Platforms](#development-platforms)
