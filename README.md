@@ -22,7 +22,7 @@ Click [here](https://githb21.github.io/auction_dapp) to launch the dapp
 ---
 ## About
 
-CryptoSneaks is a decentralized auction platform for collectible sneakers, which enables a transparent, real-time bidding process for buyers who are interested in collectible sneakers. CryptoSneaks (the admin) will be able to register new sneakers with their account, minting and creating a new auction for the sneaker. When the endAuction function is called, the auction will complete and the token will be transferred to the highest bidder. Each collectible sneaker will be a unique ERC721 token, with its own metadata including the name, size and image URL, to be registered on [Pinata](https://pinata.cloud/) - a decentralized InterPlanetary File System.
+The sneaker resale market is a 2 billion dollar market and it is expected to triple in size to by 2025. CryptoSneaks is a decentralized auction platform for collectible sneakers, which enables a transparent, real-time bidding process for buyers who are interested in collectible sneakers. CryptoSneaks (the admin) will be able to register new sneakers with their account, minting and creating a new auction for the sneaker. When the endAuction function is called, the auction will complete and the token will be transferred to the highest bidder. Each collectible sneaker will be a unique ERC721 token, with its own metadata including the name, size and image URL, to be registered on [Pinata](https://pinata.cloud/) - a decentralized InterPlanetary File System.
 
 In order to fund the development of CryptoSneaks, an Initial Coin Offering was created. We have also used Machine Learning to analyze the sneaker resale markets data which provides valuable market intel for investors of collectible markets.
 
