@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" integrity="sha256-OweaP/Ic6rsV+lysfyS4h+LM6sRwuO3euTYfr6M124g=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Tairong">
+<style>
+body, h1 {font-family: "Audiowide", sans-serif}
+body, p {font-family: "Tairong", sans-serif}
+body, html {height: 100%}
+body {background-image: url("./img/texture.jpg");}
+h1   {color: blue;}
+p    {color: red;}
+</style>
+<body>
+
+<!-- Header -->
+<header class="w3-bar w3-black">
+  <a href="index.html" class="w3-button w3-bar-item">Home</a>
+  <a href="#about" class="w3-button w3-bar-item">About</a>
+  <a href="bid.html" class="w3-button w3-bar-item">Bid</a>
+</header>
+
+<header class="w3-display-topright w3-xlarge top-social">
+  <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+  <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+  <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+  <a href="https://www.snapchat.com"><i class="fa fa-snapchat"></i></a>
+  <a href="https://www.pinterest.com"><i class="fa fa-pinterest"></i></a>
+  <a href="https://telegram.org"><i class="fa fa-telegram"></i></a>
+</header>
+
+<body>
+
+  <div class="container" style="text-align: center">
+
+    <h1>CRYPTOSNEAKS</h1>
+    <div id="dapp-tokens" class="row">
+      <div class="card">
+        <div class="card-image">
+          <img id="dapp-image" src="">
+          <span id="dapp-name" class="card-title red-text">Sneaker Name</span>
+        </div>
+        <div class="card-action">
+          <a id="dapp-bid" href="#">Bid</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m6 dapp-admin">
+      <div class="card blue darken-2">
+        <div class="card-content white-text bold-text">
+          <span class="card-title"><input id="dapp-register-name" placeholder="Sneaker name..." /></span>
+          <span class="card-title"><input id="dapp-register-size" placeholder="Sneaker size..." /></span>
+          <p>Image: <input id="dapp-copyright-image" type="file" /></p>
+
+          <p><input id="dapp-pinata-api-key" placeholder="Pinata API Key"/></p>
+          <p><input id="dapp-pinata-secret-api-key" placeholder="Pinata Secret API Key" type="password" /></p>
+          <p>Note: Pinata requests are done locally via your browser. Your keys are not shared with any party except Pinata.</p>
+          <br/>
+        </div>
+        <div class="card-action">
+          <a id="dapp-register" href="#" onclick="dApp.registerKick()">Register your sneaker</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- JQuery 3.4.1 slim minified -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript for Materialize CSS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" integrity="sha256-U/cHDMTIHCeMcvehBv1xQ052bPSbJtbuiw4QA9cTKz0=" crossorigin="anonymous"></script>
+  <!-- Web3.js -->
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.2.5-rc.0/dist/web3.min.js" integrity="sha256-ZjUHyLZZWkQPbWfRjTSmGtfcTSOermVT6f/CvJW2RY4=" crossorigin="anonymous"></script>
+  <!-- dApp JavaScript -->
+  <script src="dapp.js"></script>
+
+</body>
+</html>
