@@ -20,9 +20,9 @@ Click [here](https://githb21.github.io/auction_dapp) to launch the dapp
 * [Resources](#resources)
 
 ---
-## Summary
+## About
 
-CryptoSneaks is a decentralized auction platform for caollectible sneakers, which enables a transparent, real-time bidding process for buyers who are interested in collectible sneakers. CryptoSneaks will be able to register new sneakers with their account, minting and creating a new auction for the sneaker. When the endAuction function is called, the auction will complete and the token will be transferred to the highest bidder Each collectible sneaker will be a unique ERC721 token, with its own metadata including the name, size and image URL, to be registered on the [Pinata](https://pinata.cloud/) - a decentralized InterPlanetary File System.
+CryptoSneaks is a decentralized auction platform for collectible sneakers, which enables a transparent, real-time bidding process for buyers who are interested in collectible sneakers. CryptoSneaks (the admin) will be able to register new sneakers with their account, minting and creating a new auction for the sneaker. When the endAuction function is called, the auction will complete and the token will be transferred to the highest bidder. Each collectible sneaker will be a unique ERC721 token, with its own metadata including the name, size and image URL, to be registered on [Pinata](https://pinata.cloud/) - a decentralized InterPlanetary File System.
 
 In order to fund the development of CryptoSneaks, an Initial Coin Offering was created. We have also used Machine Learning to analyze the sneaker resale markets data which provides valuable market intel for investors of collectible markets.
 
@@ -38,9 +38,9 @@ In order to fund the development of CryptoSneaks, an Initial Coin Offering was c
 ### Finalize sale
 ![finalizeSale](screen_shot/finalizeSale.gif)
 
-You can the AUC token on Ropsten testnet Etherscan by inputting the token_address
+You can view the AUC token on Ropsten testnet Etherscan by inputting the token_address
 
-![etherscan_AUC](screen_shot/etherscan_AUC.jpg)
+![etherscan_AUC](screen_shot/etherscan_AUC.JPG)
 
 In order to fund the development of CryptoSneaks, an Initial Coin Offering was created.
 
